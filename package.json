@@ -1,0 +1,59 @@
+{
+  "name": "Helix",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "~27.0.0",
+    "react-native-prepare-svg": "^0.1.7",
+    "react-native-scripts": "1.14.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@target-corp/react-native-svg-parser": "^1.0.5",
+    "axios": "^0.18.0",
+    "expo": "^27.0.1",
+    "firebase": "^4.13.1",
+    "moment": "^2.22.1",
+    "native-base": "^2.4.3",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-native-audio-player-recorder-no-linking": "^0.1.2",
+    "react-native-easy-grid": "^0.1.17",
+    "react-native-elements": "^0.19.1",
+    "react-native-expandable-section-flatlist": "^1.1.6",
+    "react-native-firebase": "^4.0.7",
+    "react-native-gridview": "^0.1.2",
+    "react-native-keyboard-spacer": "^0.4.1",
+    "react-native-loading-spinner-overlay": "^0.5.2",
+    "react-native-popup-dialog": "^0.14.48",
+    "react-native-redux-listener": "^0.3.0",
+    "react-native-remote-svg": "^1.2.0",
+    "react-native-router-flux": "^4.0.0-beta.28",
+    "react-native-searchbar": "^1.14.0",
+    "react-native-simple-radio-button": "^2.7.2",
+    "react-native-size-matters": "^0.1.0",
+    "react-native-sortable-list": "0.0.22",
+    "react-native-svgx": "0.0.4",
+    "react-native-swipe-gestures": "^1.0.2",
+    "react-native-vector-icons": "^4.6.0",
+    "react-native-voice": "^0.2.6",
+    "react-navigation": "^2.0.0-rc.9",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "render-if": "^0.1.1",
+    "rn-viewpager": "^1.2.9",
+    "victory-native": "^0.18.0"
+  }
+}

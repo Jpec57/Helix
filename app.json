@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "sdkVersion": "27.0.0",
+    "orientation": "portrait",
+    "name": "Helix",
+    "icon": "./imgs/icon.png",
+    "version": "1.0.1",
+    "slug": "your-app-slug",
+    "ios": {
+      "bundleIdentifier": "com.jpec.helix"
+    },
+    "android": {
+      "package": "com.jpec.helix",
+      "versionCode": 2
+    }
+  }
+}
